@@ -1,10 +1,10 @@
 {
-    "Last Boot Time (IST)":  "23-08-07 15:31:52",
-    "CPU Utilized":  "5 %",
+    "Last Boot Time (IST)":  "23-08-07 15:31:56",
+    "CPU Utilized":  "2 %",
     "Hostname":  "Machine2",
     "Total Memory":  "4.61 GB",
-    "Memory Utilized":  "28.84 %",
-    "Time":  "2023-08-07 16:38:56",
+    "Memory Utilized":  "28.22 %",
+    "Time":  "2023-08-07 16:55:33",
     "Virtual Processors(CPU)":  "3 (Total: 1)",
     "Recent patch installed":  "KB3200970 - Security Update - 11/21/2016 00:00:00",
     "Drives present in the Machine":  [

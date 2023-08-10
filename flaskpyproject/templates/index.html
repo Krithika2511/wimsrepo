@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alert Metrics Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="title">Alert Metrics Dashboard</div>
+    <div class="container">
+        {% for data_item in data %}
+        <div class="machine-card {% if loop.index % 2 == 0 %}machine1{% else %}machine2{% endif %}">
+            <h2>{{ data_item["Hostname"] }}</h2>
+            <p><strong>IP Address:</strong></p>
+            <ul>
+                {% for ip in data_item["IP Address"] %}
+                <li>{{ ip }}</li>
+                {% endfor %}
+            </ul>
+            <p><strong>Time:</strong> {{ data_item["Time"] }}</p>
+            <p><strong>Last Boot Time:</strong> {{ data_item["Last Boot Time (IST)"] }}</p>
+            <p><strong>Virtual Processors:</strong> {{ data_item["Virtual Processors(CPU)"] }}</p>
+            <p><strong>CPU Utilized:</strong> {{ data_item["CPU Utilized"] }}</p>
+            <p><strong>Total Memory:</strong> {{ data_item["Total Memory"] }}</p>
+            <p><strong>Memory Utilized:</strong> {{ data_item["Memory Utilized"] }}</p>
+            <p><strong>Recent Patch Installed:</strong> {{ data_item["Recent patch installed"] }}</p>
+            <p><strong>Drives present in the Machine:</strong></p>
+            <ul>
+                {% for drive in data_item["Drives present in the Machine"] %}
+                <li>{{ drive }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

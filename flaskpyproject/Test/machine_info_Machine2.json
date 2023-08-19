@@ -1,17 +1,17 @@
 {
     "Last Boot Time (IST)":  "23-08-19 12:13:37",
-    "CPU Utilized":  "7 %",
+    "CPU Utilized":  "4 %",
     "Hostname":  "Machine2",
     "Total Memory":  "4.61 GB",
-    "Memory Utilized":  "23.73 %",
-    "Time":  "2023-08-19 16:39:02",
+    "Memory Utilized":  "24.24 %",
+    "Time":  "2023-08-19 17:16:13",
     "Virtual Processors(CPU)":  "3 (Total: 1)",
     "Recent patch installed":  "KB3200970 - Security Update - 11/21/2016 00:00:00",
     "Drives present in the Machine":  [
                                           "Drive: A: - Size: 0 GB - Free Space: 0 GB",
                                           "Drive: C: - Size: 40 GB - Free Space: 27.43 GB",
                                           "Drive: D: - Size: 0.05 GB - Free Space: 0 GB",
-                                          "Drive: H: - Size: 232.01 GB - Free Space: 8.41 GB"
+                                          "Drive: H: - Size: 232.01 GB - Free Space: 7.47 GB"
                                       ],
     "IP Address":  [
                        "192.168.10.2",

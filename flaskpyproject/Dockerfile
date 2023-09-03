@@ -3,4 +3,4 @@ COPY . /flask_project
 WORKDIR /flask_project
 RUN pip install -r requirements.txt
 EXPOSE 5000
-CMD [ "python", "alertpy.py" ]
+CMD [ "python", "alertapp.py" ]

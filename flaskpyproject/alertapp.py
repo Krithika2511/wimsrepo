@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 json_files = []
-directory = "./Test"
+directory = "./metric-collection"
 print(directory)
 dir_path = os.path.dirname(os.path.realpath(__file__))
 print("current path", dir_path)

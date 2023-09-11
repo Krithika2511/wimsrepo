@@ -1,21 +1,21 @@
 {
-    "Last Boot Time (IST)":  "23-09-10 17:41:39",
-    "CPU Utilized":  "23 %",
+    "Last Boot Time (IST)":  "23-09-11 12:20:11",
+    "CPU Utilized":  "46 %",
     "Hostname":  "Machine3",
     "Total Memory":  "4.77 GB",
-    "Memory Utilized":  "27.77 %",
-    "Time":  "2023-09-10 17:48:56",
+    "Memory Utilized":  "31.61 %",
+    "Time":  "2023-09-11 12:47:23",
     "Virtual Processors(CPU)":  "3 (Total: 1)",
     "Recent patch installed":  "KB4103723 - Security Update - 08/01/2023 00:00:00",
     "Drives present in the Machine":  [
                                           "Drive: A: - Size: 0 GB - Free Space: 0 GB",
-                                          "Drive: C: - Size: 50 GB - Free Space: 25.33 GB",
+                                          "Drive: C: - Size: 50 GB - Free Space: 25.24 GB",
                                           "Drive: D: - Size: 0.05 GB - Free Space: 0 GB",
-                                          "Drive: H: - Size: 231.28 GB - Free Space: 2.5 GB"
+                                          "Drive: H: - Size: 231.28 GB - Free Space: 3 GB"
                                       ],
     "IP Address":  [
                        "192.168.10.3",
-                       "192.168.67.132",
+                       "192.168.0.149",
                        "127.0.0.1"
                    ]
 }
